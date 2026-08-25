@@ -7,7 +7,7 @@ void Traverse(int matrix[3][3]){
                 cout<<matrix[i][j]<<" ";
             }
             else{
-                cout<<" - ";
+                cout<<"- ";
             }
             }
         cout<<endl;
