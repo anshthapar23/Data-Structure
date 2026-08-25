@@ -37,6 +37,7 @@ string Search(int matrix[][3],int target){
         }
     }
 }
+
 int main(){
     int matrix[][3]{
         {1,2,3},
