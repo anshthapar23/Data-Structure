@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-void Convert_Uppercase(string name)
+void Convert_Lowercase(string name)
 {
     for (int i = 0; i < name.length(); i++)
     {
-        if (name[i] >= 97 && name[i] <= 122)
+        if (name[i] >= 65 && name[i] <= 90)
         {
-            name[i] = name[i] - 32;
+            name[i] = name[i] + 32;
         }
     }
     cout << name;
@@ -14,6 +14,6 @@ void Convert_Uppercase(string name)
 int main()
 {
     string name = "I am aNsH thaPar";
-    Convert_Uppercase(name);
+    Convert_Lowercase(name);
     return 0;
 }
